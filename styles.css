@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+body {
+   background-color: hsl(210, 46%, 95%);
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 13%;
+}
+.container > * {
+    width: 100%;
+    padding: 1rem;
+}
+@media (min-width: 768px) {
+    .container > * {
+        width: 20%;
+    }
+}
+.left {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+.right {
+    flex: 1;
+    background-color: white;
+    min-height: 20em;
+    min-width: 20em;
+    margin-right: 10em;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.drawers {
+    margin-left: 20%;
+    float: right;
+    height: 20em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+h2 {
+    font-weight: 700;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-right: 50px;
+    font-size: 1.5em;
+}
+p {
+    font-size: 1em;
+    margin-left: 3.2em;
+    margin-top: 1em;
+    line-height: 25px;
+    margin-right: 50px;
+}
+
+.bottom--right {
+    display: inline-flex;
+    margin-top: 1em;
+    height: 2.5em;
+}
+.avatar {
+    border-radius: 180px;
+    height: 60px;
+    width: 60px;
+    margin-left: 3em;
+    
+}
+.smallPrint {
+    margin-top: .5em;
+    margin-left: 1em;
+    margin-right: 20em;
+    font-size: .8em;
+    width: 10em;
+}
+.share--img {
+    margin-top: 1em;
+}
+.share {
+    background-color: rgb(212, 212, 212);
+    border-radius: 180px;
+    padding:.7em;
+}
+button {
+    cursor: pointer;
+    border: none;
+    background-color: none;
+    height: 2em;
+    width: 2em;
+    border-radius: 180px;
+}
+.menu {
+    display: none;
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    position:fixed;
+    min-width: 220px;
+    z-index: 1;
+    border-radius: 7px;
+}
+.menu p {
+    padding: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+    margin-right: 1.2em;
+    font-weight: lighter;
+    display: inline-flex;
+}
+.menu a {
+    padding:.5em;
+    margin-top: .8em;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 10em;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
